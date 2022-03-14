@@ -1,5 +1,7 @@
-#todo-backend-flask
+# todo-backend-flask
+
 ![](https://github.com/staeff/todo-backend-flask/workflows/Run%20pytest/badge.svg)
+
 [![Requirements Status](https://requires.io/github/Faerbit/todo-backend-flask/requirements.svg?branch=master)](https://requires.io/github/Faerbit/todo-backend-flask/requirements/?branch=master)
 
 A [todo backend](http://todobackend.com) written in Python with Flask.

@@ -4,3 +4,5 @@ Flask-SQLAlchemy
 gunicorn
 psycopg2-binary
 pip-tools
+pytest
+pytest-cov

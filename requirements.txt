@@ -4,10 +4,14 @@
 #
 #    pip-compile requirements.in
 #
+attrs==21.4.0
+    # via pytest
 click==8.0.4
     # via
     #   flask
     #   pip-tools
+coverage[toml]==6.3.2
+    # via pytest-cov
 flask==2.0.3
     # via
     #   -r requirements.in
@@ -21,24 +25,43 @@ greenlet==1.1.2
     # via sqlalchemy
 gunicorn==20.1.0
     # via -r requirements.in
+iniconfig==1.1.1
+    # via pytest
 itsdangerous==2.1.0
     # via flask
 jinja2==3.0.3
     # via flask
 markupsafe==2.1.0
     # via jinja2
+packaging==21.3
+    # via pytest
 pep517==0.12.0
     # via pip-tools
 pip-tools==6.5.1
     # via -r requirements.in
+pluggy==1.0.0
+    # via pytest
 psycopg2-binary==2.9.3
+    # via -r requirements.in
+py==1.11.0
+    # via pytest
+pyparsing==3.0.7
+    # via packaging
+pytest==7.1.0
+    # via
+    #   -r requirements.in
+    #   pytest-cov
+pytest-cov==3.0.0
     # via -r requirements.in
 six==1.16.0
     # via flask-cors
 sqlalchemy==1.4.31
     # via flask-sqlalchemy
 tomli==2.0.1
-    # via pep517
+    # via
+    #   coverage
+    #   pep517
+    #   pytest
 werkzeug==2.0.3
     # via flask
 wheel==0.37.1

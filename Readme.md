@@ -5,7 +5,7 @@
 A [todo backend](http://todobackend.com) written in Python with Flask.
 
 ## Tests
-You can run the unit tests with `python -m unittest discover`.
+You can run the unit tests with `pytest`.
 
 ## Server
 You can start a debug server by executing `run_debug_server.py`

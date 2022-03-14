@@ -4,10 +4,10 @@
 
 A [todo backend](http://todobackend.com) written in Python with Flask.
 
-##Tests
+## Tests
 You can run the unit tests with `python -m unittest discover`.
 
-##Server
+## Server
 You can start a debug server by executing `run_debug_server.py`
 
 ## License
